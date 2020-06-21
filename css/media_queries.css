@@ -1,0 +1,217 @@
+/* Landscape phones and portrait tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+	h2 {
+		font-size: 24px;
+	}
+
+	h3 {
+		font-size: 18px;
+	}
+	
+	.ba-section {
+		padding: 60px 0;
+	}
+
+	.ba-box {
+		padding: 50px;
+	}
+
+	/* ba-header */
+	.ba-header {
+		padding-top: 60px;
+	}
+
+	.ba-logo {
+		margin-bottom: 40px;
+	}
+
+	.ba-logo img {
+		width: 50px;
+	}
+
+	.ba-header__title {
+		font-size: 32px;
+	}
+
+	.ba-header__text {
+		font-size: 12px;
+	}
+
+	/* ba-what-we-do */
+	.ba-what-we-do .ba-box img {
+		margin-top: 40px;
+		width: 50px;
+	}
+
+	/* ba-our-works */
+	.ba-grid {
+		display: grid;
+		grid-template-rows: repeat(3, 236px);
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 10px;
+	}
+
+	.ba-project__title {
+		font-size: 20px;
+	}
+
+	/* Contact Us */
+	.ba-button_contact-us {
+		width: 100%;
+	}
+
+	/* Footer */
+	.ba-footer {
+		padding: 30px 0;
+	}
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+	h2 {
+		font-size: 20px;
+	}
+
+	h3 {
+		font-size: 16px;
+	}
+	
+	.ba-section {
+		padding: 40px 0;
+	}
+
+	.ba-box {
+		padding: 20px;
+	}
+
+	/* ba-header */
+	.ba-header {
+		padding-top: 40px;
+	}
+
+	.ba-logo {
+		margin-bottom: 24px;
+	}
+
+	.ba-logo img {
+		width: 40px;
+	}
+
+	.ba-header__title {
+		font-size: 32px;
+	}
+
+	.ba-header__text {
+		font-size: 12px;
+	}
+
+	/* ba-what-we-do */
+	.ba-what-we-do .ba-box img {
+		margin-top: 30px;
+		width: 40px;
+	}
+
+	/* ba-our-works */
+	.ba-grid {
+		display: grid;
+		grid-template-rows: repeat(6, 236px);
+		grid-template-columns: 1fr;
+		grid-gap: 10px;
+	}
+
+	.ba-project__title {
+		font-size: 20px;
+	}
+
+	/* Contact Us */
+	.ba-button_contact-us {
+		width: 100%;
+	}
+
+	/* Footer */
+	.ba-footer {
+		padding: 30px 0;
+	}
+}
+
+@media (max-width: 320px) {
+	h2 {
+		font-size: 20px;
+	}
+
+	h3 {
+		font-size: 16px;
+	}
+	
+	.ba-section {
+		padding: 40px 0;
+	}
+
+	.ba-box {
+		padding: 20px;
+	}
+
+	/* ba-header */
+	.ba-header {
+		padding-top: 40px;
+	}
+
+	.ba-header-wrapper {
+		padding: 0;
+	}
+
+	.ba-logo {
+		margin-bottom: 24px;
+	}
+
+	.ba-logo img {
+		width: 40px;
+	}
+
+	.ba-header__title {
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+
+	.ba-header__text {
+		font-size: 8px;
+		margin-bottom: 16px;
+	}
+
+	.ba-scroll {
+		display: block;
+		width: 24px;
+		height: 37px;
+		position: absolute;
+		bottom: 8%;
+		left: 50%;
+		background: url(../img/scroll.svg) 50% no-repeat;
+}
+
+	/* ba-what-we-do */
+	.ba-what-we-do .ba-box img {
+		margin-top: 30px;
+		width: 40px;
+	}
+
+	/* ba-our-works */
+	.ba-grid {
+		display: grid;
+		grid-template-rows: repeat(6, 236px);
+		grid-template-columns: 1fr;
+		grid-gap: 10px;
+	}
+
+	.ba-project__title {
+		font-size: 20px;
+	}
+
+	/* Contact Us */
+	.ba-button_contact-us {
+		width: 100%;
+	}
+
+	/* Footer */
+	.ba-footer {
+		padding: 30px 0;
+	}
+}

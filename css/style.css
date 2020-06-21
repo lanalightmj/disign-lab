@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body{
+	font: 300 16px/1.5 'Lato', Arial, sans-serif;
+	color: #3c3c3c;
+}
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: .16em;
+	font-family: 'Lato', Arial, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 54px;
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 34px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	max-width: 963px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: 0 auto;
+}
+
+/* ba-header */
+.ba-header {
+	position: relative;
+	height: 100vh;
+	text-align: center;
+	padding-top: 22vh;
+	background: #a9b4c7 url(../img/hero-bg.jpg) 50% no-repeat;
+	background-size: cover;
+}
+
+.ba-header-wrapper {
+	display: block;
+	margin: 0 auto;
+	padding-left: 14%;
+	padding-right: 14%;
+	color: #fff;
+}
+
+.ba-logo {
+	display: block;
+	width: 67px;
+	height: auto;
+	margin: 0 auto 84px;
+}
+
+.ba-header__title {
+	margin-bottom: 40px; 
+}
+
+.ba-header__text {
+	text-transform: uppercase;
+	line-height: 2;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: .06em;
+}
+
+.ba-scroll {
+	display: block;
+	width: 24px;
+	height: 37px;
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	background: url(../img/scroll.svg) 50% no-repeat;
+}
+
+/* main */
+.ba-section {
+	padding: 90px 0;
+	text-align: center;
+}
+
+.ba-box {
+	position:  relative;
+	margin-top: 40px;
+	padding: 50px 150px;
+	border: solid #3c3c3c;
+	border-width: 0 2px 2px;
+}
+
+.ba-section_with-bg .ba-box {
+	color: #fff;
+	border-color: #fff;
+}
+
+.ba-section_with-bg .ba-box:before,
+.ba-section_with-bg .ba-box:after {
+	background-color: #fff;
+}
+
+.ba-box:before,
+.ba-box:after {
+	position: absolute;
+	display: block;
+	content: "";
+	top: 0;
+	height: 2px;
+	background-color: #3c3c3c;
+	font-size: 0;
+	width: 26.5%;
+}
+
+.ba-box:before {
+	left: 0;
+}
+
+.ba-box:after {
+	right: 0;
+}
+
+.ba-box__title {
+	position: absolute;
+	top: 0;
+	left: 25%;
+	right: 25%;
+	margin: 0;
+	-webkit-transform: translateY(-50%);
+	   -moz-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	     -o-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+
+/* ba-services */
+.ba-services {
+	background: #a9b4c7 url(../img/services.jpg) 50% no-repeat;
+}
+
+/* ba-what-we-do */
+.ba-what-we-do .ba-box img {
+	margin-top: 110px;
+}
+
+
+/* ba-our-works */
+.ba-our-works {
+	text-align: left;
+}
+
+.ba-grid {
+	display: grid;
+	grid-template-rows: repeat(2, 236px);
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+
+.ba-project {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.ba-project__title {
+	font: 700 34px/1.2 'Lato', Arial, sans-serif;
+	color: #fff;
+	position: absolute;
+	left: 4.75%;
+	bottom: 16.03%;
+
+	-webkit-transition: opacity .5s ease-in, transform .5s ease-in;
+	   -moz-transition: opacity .5s ease-in, transform .5s ease-in;
+	    -ms-transition: opacity .5s ease-in, transform .5s ease-in;
+	     -o-transition: opacity .5s ease-in, transform .5s ease-in;
+	        transition: opacity .5s ease-in, transform .5s ease-in;
+}
+
+.ba-project:hover .ba-project__title {
+	-webkit-transform: rotate(-90deg);
+	   -moz-transform: rotate(-90deg);
+	    -ms-transform: rotate(-90deg);
+	     -o-transform: rotate(-90deg);
+	        transform: rotate(-90deg);
+
+	-webkit-transform-origin: top right;
+	   -moz-transform-origin: top right;
+	    -ms-transform-origin: top right;
+	     -o-transform-origin: top right;
+	        transform-origin: top right;
+
+	opacity: 0;
+}
+
+.ba-grid-box_1 {
+	background: url(../img/portfolio_1.jpg) 50% no-repeat;
+	background-size: cover;
+}
+.ba-grid-box_2 {
+	background: url(../img/portfolio_2.jpg) 50% no-repeat;
+	background-size: cover;
+}
+.ba-grid-box_3 {
+	background: url(../img/portfolio_3.jpg) 50% no-repeat;
+	background-size: cover;
+}
+.ba-grid-box_4 {
+	background: url(../img/portfolio_4.jpg) 50% no-repeat;
+	background-size: cover;
+}
+.ba-grid-box_5 {
+	background: url(../img/portfolio_5.jpg) 50% no-repeat;
+	background-size: cover;
+}
+.ba-grid-box_6 {
+	background: url(../img/portfolio_6.jpg) 50% no-repeat;
+	background-size: cover;
+}
+
+/* Contact Us */
+.ba-button_contact-us {
+	display: block;
+	position: relative;
+	width: 395px;
+	height: 58px;
+	background-color: #3c3c3c;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-top: 16px; 
+	margin: 45px auto 0;
+	font: 400 16px/auto 'Lato', Arial, sans-serif;
+}
+
+.ba-button_contact-us:hover {
+	background-color: #a9b4c7;
+} 
+
+.ba-button_contact-us:active {
+	opacity: 0.6;
+}
+
+/* Footer */
+.ba-footer {
+	padding: 60px 0;
+	text-align: center;
+}
+
+.ba-footer a {
+	display: inline-block;
+}
+
+.ba-footer img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.ba-footer p {
+	display: inline-block;
+	font-size: 14px;
+	color: #3c3c3c;
+	font-weight: 400;
+	margin-left: 25px;
+}
